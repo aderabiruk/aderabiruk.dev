@@ -5,6 +5,7 @@ import { Providers } from './providers';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import ChatWidget from '@/components/ui/ChatWidget';
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -59,6 +60,7 @@ export default function RootLayout({
           </div>
           <ChatWidget />
         </Providers>
+        <Analytics />
       </body>
     </html>
   );
