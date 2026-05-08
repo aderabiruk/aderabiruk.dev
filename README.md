@@ -131,15 +131,6 @@ The smart contact form adapts fields based on the selected category:
 | General | Topic |
 | Website Feedback | Page, Issue |
 
-## Deployment
-
-The site can be deployed to any platform that supports Next.js:
-
-- **Vercel** (recommended): Zero-config deployment
-- **Netlify**: Use Next.js adapter
-- **Docker**: Build and deploy container
-- **Self-hosted**: Run with Node.js
-
 ## License
 
 MIT License - feel free to use this as a template for your own portfolio!
