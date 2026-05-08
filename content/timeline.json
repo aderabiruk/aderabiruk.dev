@@ -1,0 +1,138 @@
+{
+  "milestones": [
+    {
+      "id": "tradecafe-senior",
+      "date": "2024",
+      "title": "Senior Full Stack Developer & Team Lead at TradeCafe",
+      "summary": "Joined the engineering team behind a global protein commodity trading platform serving 2,000+ corporate buyers across 82 markets.",
+      "bullets": [
+        "Own backend architecture for a multi-tenant trading platform handling real-time market data",
+        "Build and maintain RESTful and GraphQL APIs in Node.js and NestJS",
+        "Lead a team of engineers on technical direction and code review",
+        "Design database schemas across MongoDB and PostgreSQL for high-throughput operations"
+      ],
+      "tags": ["leadership", "fullstack", "node.js", "nestjs", "trading"],
+      "type": ["leadership", "fullstack"]
+    },
+    {
+      "id": "spikeet-lead",
+      "date": "2021",
+      "title": "Tech Lead at Spikeet Inc",
+      "summary": "Designed and built the customer-facing application from the ground up for a fintech SaaS delivering historical market data to traders and investors.",
+      "bullets": [
+        "Architected the entire backend from scratch — service boundaries, data flow, and infrastructure",
+        "Implemented microservices with Express.js and Flask for scalable data querying",
+        "Managed full AWS infrastructure and automated CI/CD pipelines",
+        "Integrated Stripe for subscription billing and payment lifecycle management"
+      ],
+      "tags": ["leadership", "backend", "fintech", "aws", "architecture"],
+      "type": ["leadership", "backend"]
+    },
+    {
+      "id": "cekaso-senior",
+      "date": "2021",
+      "title": "Senior Software Engineer at Cekaso GmbH",
+      "summary": "Senior backend engineer on a 3+ year engagement building enterprise ERP systems on Microsoft Azure for major European furniture companies.",
+      "bullets": [
+        "Designed and developed a full-featured ERP system using Node.js and RESTful APIs",
+        "Architected cloud infrastructure on Azure — Functions, Cosmos DB, Cognitive Search, Blob Storage",
+        "Built and maintained CI/CD pipelines in Bitbucket across staging and production",
+        "Maintained zero critical outages over 3+ years of production operation"
+      ],
+      "tags": ["backend", "azure", "erp", "node.js", "enterprise"],
+      "type": ["fullstack"]
+    },
+    {
+      "id": "the-neuron-senior",
+      "date": "2022",
+      "title": "Senior Back-End Developer at The Neuron",
+      "summary": "Built the backend platform for a digital signage company managing ad scheduling and delivery across distributed screens.",
+      "bullets": [
+        "Designed microservices for tracking and scheduling ads across distributed digital screens",
+        "Deployed and managed services on AWS (ElasticBeanstalk, RDS, CloudWatch, CloudFront)",
+        "Built an Angular admin dashboard for analytics and performance monitoring",
+        "Optimized API performance and database efficiency for growing traffic"
+      ],
+      "tags": ["backend", "aws", "angular", "microservices"],
+      "type": ["backend"]
+    },
+    {
+      "id": "lersha-android",
+      "date": "2020",
+      "title": "Android & Backend Developer at Lersha App",
+      "summary": "Built a mobile-first agricultural platform connecting Ethiopian farmers with verified suppliers, advisory services, and mechanization providers.",
+      "bullets": [
+        "Designed the Android app with offline-first architecture for low-connectivity regions",
+        "Implemented geo-location matching for nearby service providers",
+        "Built the Node.js/Express backend powering the mobile API",
+        "Set up Jenkins CI/CD for automated testing and deployment"
+      ],
+      "tags": ["mobile", "android", "agritech", "node.js"],
+      "type": ["fullstack", "mobile"]
+    },
+    {
+      "id": "outlier-backend",
+      "date": "2021",
+      "title": "Back End Developer at Outlier.org",
+      "summary": "Contributed to a US-based edtech platform offering accredited university-level courses, building backend services and integrating assessment tools.",
+      "bullets": [
+        "Developed backend APIs and frontend modules for course management, progress tracking, and grading",
+        "Integrated Proctorio for secure online assessments and academic integrity",
+        "Worked on Airtable integration for managing student data and enrollment records",
+        "Collaborated with designers and engineers to improve platform performance and data synchronization"
+      ],
+      "tags": ["backend", "edtech", "node.js", "react"],
+      "type": ["backend"]
+    },
+    {
+      "id": "icog-fullstack",
+      "date": "2019",
+      "title": "Full Stack Developer at iCog Labs",
+      "summary": "First professional role — built a ride-hailing platform in collaboration with Honda at one of Ethiopia's leading AI research labs.",
+      "bullets": [
+        "Developed the backend and management dashboard for a ride-hailing platform with Honda",
+        "Full-cycle development from requirement gathering to deployment",
+        "Implemented route optimization to improve trip efficiency",
+        "Designed RESTful APIs for mobile communication and trip management"
+      ],
+      "tags": ["fullstack", "node.js", "android", "api"],
+      "type": ["fullstack"]
+    },
+    {
+      "id": "aau-graduation",
+      "date": "2019",
+      "title": "Graduated from Addis Ababa University",
+      "summary": "Completed Bachelor of Science in Computer Software Engineering from Addis Ababa Institute of Technology (AAiT) with a 3.89 CGPA.",
+      "bullets": [
+        "B.Sc. in Computer Software Engineering",
+        "Addis Ababa Institute of Technology (AAiT)",
+        "CGPA: 3.89",
+        "Strong foundation in algorithms, data structures, and system design"
+      ],
+      "tags": ["education", "computer-science", "software-engineering"],
+      "type": ["education"]
+    }
+  ],
+  "types": {
+    "leadership": {
+      "label": "Leadership",
+      "color": "green"
+    },
+    "backend": {
+      "label": "Backend Development",
+      "color": "blue"
+    },
+    "fullstack": {
+      "label": "Full-Stack Development",
+      "color": "purple"
+    },
+    "mobile": {
+      "label": "Mobile Development",
+      "color": "orange"
+    },
+    "education": {
+      "label": "Education",
+      "color": "gray"
+    }
+  }
+}

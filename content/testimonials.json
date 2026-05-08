@@ -1,0 +1,62 @@
+[
+  {
+    "id": "t-clean-code",
+    "quote": "I'd hire Biruk again and again. He is a very good developer, smart and elegant. His code is high-standard, clean, and written with best practices.",
+    "author": "Osama Jaber",
+    "jobTitle": "NodeJS Backend Developer",
+    "rating": 5.0,
+    "upworkJobId": "uw-nodejs-backend-dev-clean",
+    "featured": true,
+    "order": 1
+  },
+  {
+    "id": "t-ai-platform",
+    "quote": "Biruk is easily one of the top professionals I have worked with on Upwork. He is very detail oriented and able to perform calmly under pressure.",
+    "author": "Baba Oladimeji",
+    "jobTitle": "Conversational-AI Platform",
+    "rating": 5.0,
+    "upworkJobId": "uw-backend-devops-ai-platform",
+    "featured": true,
+    "order": 2
+  },
+  {
+    "id": "t-encrypted-messaging",
+    "quote": "Biruk's work is consistently excellent. In addition to implementation, he assisted with design and architecture. His communication is timely, thorough and insightful.",
+    "author": "Liberty McAteer",
+    "jobTitle": "Encrypted Messaging App",
+    "rating": 5.0,
+    "upworkJobId": "uw-encrypted-messaging-app",
+    "featured": true,
+    "order": 3
+  },
+  {
+    "id": "t-engin",
+    "quote": "Biruk is an expert in Backend Development. Would hire him again without a doubt.",
+    "author": "Engin C.",
+    "jobTitle": "Backend TypeScript Software Developer",
+    "rating": 5.0,
+    "upworkJobId": "uw-backend-ts-software-dev",
+    "featured": true,
+    "order": 4
+  },
+  {
+    "id": "t-above-beyond",
+    "quote": "Biruk truly went above and beyond for this project. He completed everything, came up with amazing suggestions that improved the project, and explained everything very transparently.",
+    "author": "Upwork Client",
+    "jobTitle": "Website Redesign & API",
+    "rating": 5.0,
+    "upworkJobId": "uw-website-redesign-api",
+    "featured": true,
+    "order": 5
+  },
+  {
+    "id": "t-encrypted-file",
+    "quote": "Biruk performed every part of this contract extremely well. The task involved a complex, end-to-end encrypted file transfer system. Multiple architectural decisions had to be made and he handled them all.",
+    "author": "Upwork Client",
+    "jobTitle": "Encrypted File Transfer System",
+    "rating": 5.0,
+    "upworkJobId": "uw-encrypted-file-upload",
+    "featured": true,
+    "order": 6
+  }
+]

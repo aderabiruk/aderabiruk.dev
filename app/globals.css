@@ -1,0 +1,251 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'SF Mono', Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-gray-900 antialiased;
+    font-family: var(--font-sans);
+  }
+
+  .dark body {
+    @apply bg-gray-950 text-gray-100;
+  }
+
+  .terminal body {
+    @apply bg-terminal-bg text-terminal-fg;
+    font-family: var(--font-mono);
+  }
+}
+
+@layer components {
+  /* Terminal theme styles */
+  .terminal {
+    --tw-bg-opacity: 1;
+    background-color: rgb(10 10 10 / var(--tw-bg-opacity));
+  }
+
+  .terminal * {
+    font-family: var(--font-mono) !important;
+  }
+
+  .terminal .text-primary {
+    @apply text-terminal-fg;
+  }
+
+  .terminal .text-secondary {
+    @apply text-terminal-dim;
+  }
+
+  .terminal .text-accent {
+    @apply text-terminal-accent;
+  }
+
+  .terminal .bg-surface {
+    @apply bg-terminal-bg border border-terminal-dim;
+  }
+
+  .terminal input,
+  .terminal textarea,
+  .terminal select {
+    @apply bg-terminal-bg border-terminal-dim text-terminal-fg;
+  }
+
+  .terminal input:focus,
+  .terminal textarea:focus,
+  .terminal select:focus {
+    @apply border-terminal-fg ring-terminal-fg;
+  }
+
+  .terminal button {
+    @apply border border-terminal-fg text-terminal-fg hover:bg-terminal-fg hover:text-terminal-bg;
+  }
+
+  .terminal a {
+    @apply text-terminal-accent hover:text-terminal-fg underline;
+  }
+
+  .terminal .card {
+    @apply border border-terminal-dim bg-terminal-bg;
+  }
+
+  .terminal h1,
+  .terminal h2,
+  .terminal h3,
+  .terminal h4 {
+    @apply text-terminal-fg;
+  }
+
+  .terminal h1::before {
+    content: '# ';
+    @apply text-terminal-dim;
+  }
+
+  .terminal h2::before {
+    content: '## ';
+    @apply text-terminal-dim;
+  }
+
+  .terminal .cursor-blink::after {
+    content: '█';
+    @apply text-terminal-fg animate-blink;
+  }
+
+  /* Light/Dark theme utilities */
+  .bg-surface {
+    @apply bg-gray-50 dark:bg-gray-900;
+  }
+
+  .bg-card {
+    @apply bg-white dark:bg-gray-800;
+  }
+
+  .text-primary {
+    @apply text-gray-900 dark:text-gray-100;
+  }
+
+  .text-secondary {
+    @apply text-gray-600 dark:text-gray-400;
+  }
+
+  .border-default {
+    @apply border-gray-200 dark:border-gray-700;
+  }
+
+  /* Button styles */
+  .btn {
+    @apply inline-flex items-center justify-center px-4 py-2 rounded-lg font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-primary {
+    @apply btn bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500;
+  }
+
+  .dark .btn-primary {
+    @apply bg-blue-500 hover:bg-blue-600;
+  }
+
+  .terminal .btn-primary {
+    @apply bg-transparent border border-terminal-fg text-terminal-fg hover:bg-terminal-fg hover:text-terminal-bg focus:ring-terminal-fg;
+  }
+
+  .btn-secondary {
+    @apply btn bg-gray-100 text-gray-900 hover:bg-gray-200 focus:ring-gray-500;
+  }
+
+  .dark .btn-secondary {
+    @apply bg-gray-800 text-gray-100 hover:bg-gray-700;
+  }
+
+  .terminal .btn-secondary {
+    @apply bg-transparent border border-terminal-dim text-terminal-dim hover:border-terminal-fg hover:text-terminal-fg;
+  }
+
+  /* Form styles */
+  .input {
+    @apply w-full px-4 py-2 rounded-lg border border-gray-300 bg-white text-gray-900 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:ring-opacity-20 transition-colors;
+  }
+
+  .dark .input {
+    @apply border-gray-600 bg-gray-800 text-gray-100 focus:border-blue-400;
+  }
+
+  .terminal .input {
+    @apply bg-terminal-bg border-terminal-dim text-terminal-fg focus:border-terminal-fg focus:ring-terminal-fg placeholder-terminal-dim;
+  }
+
+  /* Card styles */
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-gray-100;
+  }
+
+  .dark .card {
+    @apply bg-gray-800 border-gray-700;
+  }
+
+  .terminal .card {
+    @apply rounded-none border-terminal-dim bg-terminal-bg shadow-none;
+  }
+
+  /* Section styles */
+  .section {
+    @apply py-16 md:py-24;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-4;
+  }
+
+  .section-subtitle {
+    @apply text-lg text-secondary mb-12;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Terminal-specific utilities */
+  .terminal-prompt::before {
+    content: '> ';
+    @apply text-terminal-dim;
+  }
+
+  .terminal-output {
+    @apply font-mono text-sm leading-relaxed;
+  }
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+/* Custom scrollbar for non-terminal themes */
+:not(.terminal) ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+:not(.terminal) ::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-gray-800;
+}
+
+:not(.terminal) ::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 dark:bg-gray-600 rounded-full;
+}
+
+:not(.terminal) ::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400 dark:bg-gray-500;
+}

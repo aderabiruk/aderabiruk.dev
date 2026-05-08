@@ -1,0 +1,72 @@
+[
+  {
+    "category": "About Me",
+    "question": "What kind of work are you available for?",
+    "answer": "I'm open to senior software engineering roles, contract work, technical consulting, and freelance projects. I'm particularly interested in companies working on challenging backend systems, cloud infrastructure, API development, or Node.js/TypeScript projects."
+  },
+  {
+    "category": "About Me",
+    "question": "Where are you located?",
+    "answer": "I'm based in Addis Ababa, Ethiopia. I'm experienced with remote work and have collaborated with distributed teams across North America, Europe, and beyond."
+  },
+  {
+    "category": "About Me",
+    "question": "What's your preferred working arrangement?",
+    "answer": "I'm comfortable with remote work and async communication. I value clear communication and well-defined project requirements. I'm also available for hybrid arrangements if the opportunity aligns."
+  },
+  {
+    "category": "Technical Skills",
+    "question": "What's your primary tech stack?",
+    "answer": "My core stack includes Node.js, TypeScript, Python, and Golang on the backend, with Express.js and NestJS as primary frameworks. For databases I work with MongoDB, PostgreSQL, MySQL, ElasticSearch, and Redis. On the frontend I use React and Angular. I'm also experienced with GraphQL, Serverless architectures, and Docker."
+  },
+  {
+    "category": "Technical Skills",
+    "question": "Do you have cloud experience?",
+    "answer": "Yes, extensively. I've built and operated production systems on AWS (EC2, Lambda, S3, RDS, CloudWatch, ElasticBeanstalk, CloudFront), Microsoft Azure (Functions, Cosmos DB, Blob Storage, Cognitive Search), and Google Cloud. I've also worked with Terraform for infrastructure as code and Kubernetes for container orchestration."
+  },
+  {
+    "category": "Technical Skills",
+    "question": "What about DevOps and infrastructure?",
+    "answer": "I'm proficient with Docker, Kubernetes, Terraform, and CI/CD pipelines (GitHub Actions, Bitbucket Pipelines, Jenkins, CircleCI). I use Grafana for monitoring and observability. I also have experience with NGINX, PM2, and automated testing frameworks like Jest and Cypress."
+  },
+  {
+    "category": "Technical Skills",
+    "question": "Do you work with real-time applications?",
+    "answer": "Yes, I have extensive experience building real-time features using Socket.io. I've implemented real-time data streaming for trading platforms and other applications."
+  },
+  {
+    "category": "Working Together",
+    "question": "What's your availability?",
+    "answer": "I work East Africa Time (EAT, UTC+3). I'm flexible with meeting times to accommodate different time zones and respond to messages within 24 hours."
+  },
+  {
+    "category": "Working Together",
+    "question": "How do you prefer to communicate?",
+    "answer": "For initial contact, email or the contact form on this website works best. For ongoing projects, I'm comfortable with Slack, Discord, or whatever communication tools the team uses."
+  },
+  {
+    "category": "Working Together",
+    "question": "What's your rate?",
+    "answer": "My rate varies depending on the project scope and duration. For freelance work, I typically charge $50/hr. For longer engagements or full-time positions, rates are negotiable."
+  },
+  {
+    "category": "Working Together",
+    "question": "Do you take on short-term contracts?",
+    "answer": "Yes, I'm open to both short-term and long-term engagements. I've completed 60+ projects of varying durations through Upwork and direct client relationships."
+  },
+  {
+    "category": "Contact",
+    "question": "How can I reach you?",
+    "answer": "The best way is through the contact form on this website. You can also reach me via LinkedIn at linkedin.com/in/aderabiruk or email."
+  },
+  {
+    "category": "Contact",
+    "question": "Do you do free consultations?",
+    "answer": "I'm happy to have an initial call to discuss potential projects and see if we're a good fit. Use the contact form to get in touch."
+  },
+  {
+    "category": "Contact",
+    "question": "What's your Upwork profile?",
+    "answer": "I'm a Top Rated Plus freelancer on Upwork with 100% job success rate, 60+ completed contracts, and 15,000+ hours worked. You can find my profile at upwork.com/freelancers/aderabiruk."
+  }
+]

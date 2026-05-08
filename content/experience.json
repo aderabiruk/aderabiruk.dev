@@ -1,0 +1,163 @@
+[
+  {
+    "id": "tradecafe-senior-2024",
+    "title": "Senior Full Stack Developer & Team Lead",
+    "company": "TradeCafe",
+    "companyUrl": "https://ca.linkedin.com/company/tradecafe",
+    "employmentType": "Full-time",
+    "location": "Addis Ababa, Ethiopia",
+    "remote": true,
+    "startDate": "2024-04",
+    "endDate": null,
+    "isCurrent": true,
+    "summary": "Senior engineer and team lead on a platform powering $3B+ in agri-commodity trades across 82 markets, serving 2,000+ corporate buyers worldwide.",
+    "bullets": [
+      "Own the backend architecture for a multi-tenant trading platform handling real-time market data and complex transaction workflows",
+      "Build and maintain RESTful and GraphQL APIs in Node.js and NestJS, serving both the web platform and mobile clients",
+      "Lead a team of engineers on backend architecture decisions, code review, and technical direction",
+      "Design database schemas across MongoDB and PostgreSQL, optimizing query performance for high-throughput trading operations",
+      "Coordinate with frontend engineers building Angular-based trading dashboards for end-to-end feature delivery",
+      "Implement caching strategies with Redis and maintain Docker-based deployments with CI/CD pipelines"
+    ],
+    "skills": ["Node.js", "NestJS", "TypeScript", "Angular", "MongoDB", "PostgreSQL", "Redis", "Docker", "AWS", "REST API", "GraphQL"],
+    "source": "linkedin",
+    "featured": true,
+    "live": "https://www.tradecafe.com",
+    "overview": "TradeCafe is a global commodities trading and fulfillment platform that enables buyers and sellers of physical agri-commodities — primarily protein — to execute, finance, and fulfill transactions seamlessly. The platform serves over 2,000 corporate buyers including processors, retailers, and national distributors, and has facilitated over $3 billion in fulfilled trades across 82 markets worldwide. The platform replaces the traditional phone-and-spreadsheet workflow with real-time firm offers 24/7, accessible financing with approval in under 24 hours, and end-to-end fulfillment visibility — cutting admin time by 80%.",
+    "impact": [
+      "Contributing to a platform that has processed $3 billion+ in commodity trades",
+      "Serving 2,000+ corporate buyers across 82 global markets",
+      "Part of a team fundamentally modernizing how the protein commodity industry operates"
+    ],
+    "relatedUpworkJobIds": ["uw-backend-ts-software-dev"]
+  },
+  {
+    "id": "cekaso-senior",
+    "title": "Senior Software Engineer",
+    "company": "Cekaso GmbH",
+    "companyUrl": "https://www.linkedin.com/company/10232545/",
+    "employmentType": "Freelance",
+    "location": "Addis Ababa, Ethiopia",
+    "remote": true,
+    "startDate": "2021-06",
+    "endDate": "2024-10",
+    "isCurrent": false,
+    "summary": "Senior backend engineer on a 3+ year engagement building and operating a full-featured ERP system on Microsoft Azure for large-scale European furniture manufacturers.",
+    "bullets": [
+      "Designed and developed the complete ERP backend using Node.js and RESTful APIs — modules for product management, inventory, order processing, and reporting",
+      "Architected cloud infrastructure on Microsoft Azure — Functions, Cosmos DB, Cognitive Search, Blob Storage, and Compute",
+      "Built and maintained CI/CD pipelines in Bitbucket, automating the full build-test-deploy cycle across environments",
+      "Structured the API layer for multi-tenant isolation, ensuring data security across client organizations",
+      "Handled performance optimization cycles as data volumes grew — query tuning, index optimization, and caching",
+      "Took ownership of key backend components, contributing architectural decisions and communicating trade-offs with the German-based team"
+    ],
+    "skills": ["Node.js", "TypeScript", "REST API", "Microsoft Azure", "Azure Functions", "Azure Cosmos DB", "Azure Cognitive Search", "Azure Blob Storage", "Bitbucket", "CI/CD"],
+    "source": "linkedin",
+    "featured": true,
+    "live": "https://cekaso.com/",
+    "overview": "Cekaso GmbH is a German technology company that builds enterprise resource planning (ERP) software for the European furniture industry. Their platform serves large-scale furniture manufacturers and distributors across Europe, managing complex operations spanning inventory, production, logistics, and sales. The companies Cekaso serves needed a modern ERP that could handle massive product catalogs with rich metadata, support multi-tenant operations, provide intelligent search across hundreds of thousands of products, and scale reliably without downtime.",
+    "impact": [
+      "Built and operated the ERP backend powering operations for major European furniture companies",
+      "Operated the system reliably across 3+ years, handling production workloads with minimal disruption",
+      "Scaled the system to handle production workloads with hundreds of thousands of product records",
+      "Collaborated effectively as a remote team member, delivering consistently across a 3+ year cross-border engagement"
+    ]
+  },
+  {
+    "id": "spikeet-senior",
+    "title": "Tech Lead",
+    "company": "Spikeet Inc",
+    "companyUrl": null,
+    "employmentType": "Full-time",
+    "location": "Addis Ababa, Ethiopia",
+    "remote": false,
+    "startDate": "2021-04",
+    "endDate": "2022-10",
+    "isCurrent": false,
+    "summary": "Designed and built the customer-facing application from the ground up for a fintech SaaS delivering 15 years of historical market data to traders and investors.",
+    "bullets": [
+      "Designed the entire backend architecture from scratch — service boundaries, data flow, API contracts, and infrastructure topology",
+      "Chose a polyglot approach with Express.js for the API layer and Flask for data processing, optimizing each for its workload",
+      "Built the system to handle bursty load patterns — high query volume during market hours, batch processing overnight",
+      "Managed full AWS infrastructure (EC2, Lambda, S3, CloudWatch) and automated CI/CD pipelines",
+      "Integrated Stripe for subscription management — plan creation, payment processing, upgrades/downgrades, and failed payment recovery",
+      "Implemented observability with CloudWatch for monitoring, alerting, and tracing across services"
+    ],
+    "skills": ["Node.js", "Express.js", "Flask", "TypeScript", "MongoDB", "PostgreSQL", "AWS", "Stripe", "Docker", "Microservices"],
+    "source": "linkedin",
+    "featured": true,
+    "live": "https://spikeet.com",
+    "overview": "Spikeet is a financial market data platform that delivers high-quality, historical financial data to traders, investors, and money managers. The product provides 15 years of market data — including technical indicators, fundamental metrics, SEC filings, earnings data, and intraday information — through auto-generated Excel spreadsheets with daily automatic updates. Features include custom filtering across asset types and performance metrics, TradingView-powered interactive charting, an Excel plugin, and tiered subscription plans.",
+    "impact": [
+      "Delivered a production-ready SaaS product from zero to launch",
+      "Built a platform capable of serving real-time and historical market data to a growing subscriber base",
+      "Established the technical foundation that the company continues to build on"
+    ]
+  },
+  {
+    "id": "the-neuron-senior",
+    "title": "Senior Back-End Developer",
+    "company": "The Neuron",
+    "companyUrl": "https://www.linkedin.com/company/18988858/",
+    "employmentType": "Freelance",
+    "location": "Addis Ababa, Ethiopia",
+    "remote": false,
+    "startDate": "2022-03",
+    "endDate": "2023-12",
+    "isCurrent": false,
+    "summary": "Built the backend platform for a digital signage company managing ad scheduling and delivery across distributed screens.",
+    "bullets": [
+      "Designed and developed microservices for tracking, scheduling, and delivering ads and postcards across a network of digital screens",
+      "Optimized API performance and database efficiency to handle growing traffic volumes without degradation",
+      "Deployed and operated services on AWS using ElasticBeanstalk, RDS, CloudWatch, and CloudFront",
+      "Built an Angular-based admin dashboard for analytics, ad scheduling, and performance monitoring"
+    ],
+    "skills": ["Node.js", "AWS", "ElasticBeanstalk", "RDS", "CloudWatch", "CloudFront", "Angular"],
+    "source": "linkedin",
+    "featured": false
+  },
+  {
+    "id": "lersha-android",
+    "title": "Android & Backend Developer",
+    "company": "Lersha App",
+    "companyUrl": "https://www.linkedin.com/company/70396955/",
+    "employmentType": "Freelance",
+    "location": "Addis Ababa, Ethiopia",
+    "remote": false,
+    "startDate": "2020-05",
+    "endDate": "2022-10",
+    "isCurrent": false,
+    "summary": "Built a mobile-first agricultural platform connecting Ethiopian farmers with verified suppliers, advisory services, and mechanization providers.",
+    "bullets": [
+      "Designed and developed the Android application with offline-first architecture using Room Database and WorkManager for low-connectivity regions",
+      "Implemented geo-location matching to connect users with nearby machinery providers and extension agents",
+      "Built the Node.js/Express backend powering API communication between the mobile app and server",
+      "Set up Jenkins CI/CD pipelines for automated testing, build, and deployment across Android and server codebases"
+    ],
+    "skills": ["Android", "Java", "Node.js", "Express.js", "Room Database", "Jenkins", "CI/CD"],
+    "source": "linkedin",
+    "featured": false
+  },
+  {
+    "id": "icog-fullstack",
+    "title": "Full Stack Developer",
+    "company": "iCog Labs",
+    "companyUrl": "https://www.linkedin.com/company/18579529/",
+    "employmentType": "Full-time",
+    "location": "Addis Ababa, Ethiopia",
+    "remote": false,
+    "startDate": "2019-06",
+    "endDate": "2020-05",
+    "isCurrent": false,
+    "summary": "First professional role after university — built a ride-hailing platform in collaboration with Honda at one of Ethiopia's leading AI research labs.",
+    "bullets": [
+      "Developed the backend system and management dashboard for a ride-hailing platform built in partnership with Honda",
+      "Participated in full-cycle development from requirement gathering and architecture design through to deployment",
+      "Implemented route optimization logic to improve trip efficiency and reduce fuel consumption",
+      "Designed RESTful APIs for mobile app communication, user authentication, and trip management"
+    ],
+    "skills": ["Express.js", "Android", "Node.js", "REST API"],
+    "source": "linkedin",
+    "featured": false
+  }
+]

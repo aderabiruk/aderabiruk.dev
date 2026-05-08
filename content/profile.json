@@ -1,0 +1,59 @@
+{
+  "name": "Biruk Adera",
+  "title": "Senior Software Engineer",
+  "tagline": "Architecting high-performance backend systems and leading engineering teams across fintech, edtech, and SaaS",
+  "location": "Addis Ababa, Ethiopia",
+  "email": "aderabiruk@gmail.com",
+  "careerStartYear": 2019,
+  "bio": "I'm a Senior Software Engineer with extensive experience designing and shipping backend systems that scale. I've built ERP platforms on Azure, real-time financial data pipelines on AWS, ad-scheduling microservices, ride-hailing backends (in collaboration with Honda), and agricultural platforms serving farmers in low-connectivity regions. My work spans full-time roles, long-term freelance engagements, and 60+ contracts on Upwork — where I hold Top Rated Plus status with a 100% job success rate across $400K+ in delivered projects. I'm most effective at the intersection of backend architecture, cloud infrastructure, and team leadership.",
+  "expertise": [
+    "Backend Architecture",
+    "API Design (REST & GraphQL)",
+    "Cloud Infrastructure (AWS & Azure)",
+    "System Design & Scalability",
+    "Team Leadership & Mentoring",
+    "DevOps & CI/CD"
+  ],
+  "primaryTech": [
+    "Node.js",
+    "TypeScript",
+    "Python",
+    "Golang",
+    "Express.js",
+    "NestJS",
+    "React",
+    "Angular",
+    "MongoDB",
+    "PostgreSQL",
+    "ElasticSearch",
+    "Serverless",
+    "AWS",
+    "Azure",
+    "Google Cloud",
+    "Docker",
+    "Kubernetes",
+    "Terraform",
+    "Grafana"
+  ],
+  "social": {
+    "linkedin": "https://linkedin.com/in/aderabiruk",
+    "upwork": "https://www.upwork.com/freelancers/aderabiruk"
+  },
+  "availableFor": [
+    "Full-time roles",
+    "Contract work",
+    "Technical consulting",
+    "Freelance projects"
+  ],
+  "workingHours": "EAT (UTC+3)",
+  "responseTime": "Usually within 24 hours",
+  "upworkStats": {
+    "totalEarningsDisplay": "$400K+",
+    "totalJobs": 61,
+    "completedJobs": 60,
+    "totalHours": 15000,
+    "jobSuccessRate": 100,
+    "rating": 5.0,
+    "badge": "Top Rated Plus"
+  }
+}
