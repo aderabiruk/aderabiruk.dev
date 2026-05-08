@@ -12,16 +12,6 @@ A production-ready personal portfolio website built with Next.js 14, featuring a
 - **Theme Switcher**: Dark (default), Light, and Terminal themes with localStorage persistence.
 - **Responsive Design**: Mobile-first approach with smooth animations via Framer Motion.
 
-## Tech Stack
-
-- **Framework**: Next.js 14 (App Router)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Theme**: next-themes
-- **Email**: Resend
-- **AI**: OpenAI (optional, with fallback)
-
 ## Getting Started
 
 ### Prerequisites
@@ -55,20 +45,22 @@ A production-ready personal portfolio website built with Next.js 14, featuring a
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+### Building for Production
+
+```bash
+npm run build
+npm start
+```
+
 ## Environment Variables
 
-| Variable | Required | Description |
-|----------|----------|-------------|
-| `RESEND_API_KEY` | No | API key for sending contact form emails via Resend |
-| `CONTACT_TO_EMAIL` | No | Email address to receive contact form submissions |
-| `CALENDAR_BOOKING_URL` | No | URL to your calendar booking page (shown for Hiring/Collaboration) |
-| `NEXT_PUBLIC_CALENDAR_BOOKING_URL` | No | Same as above, but accessible client-side |
-| `OPENAI_API_KEY` | No | Enables AI-powered chat responses (uses gpt-4o-mini) |
-
-**Note**: All environment variables are optional. The app will work without them:
-- Without Resend: Contact form submissions are logged server-side
-- Without Calendar URL: "Book a Call" option is hidden
-- Without OpenAI: Chatbot uses deterministic keyword-based responses
+| Variable | Description |
+|----------|-------------|
+| `RESEND_API_KEY` | API key for sending contact form emails via Resend |
+| `CONTACT_TO_EMAIL` | Email address to receive contact form submissions |
+| `CALENDAR_BOOKING_URL` | URL to your calendar booking page (shown for Hiring/Collaboration) |
+| `NEXT_PUBLIC_CALENDAR_BOOKING_URL` | Same as above, but accessible client-side |
+| `OPENAI_API_KEY` | Enables AI-powered chat responses (uses gpt-4o-mini) |
 
 ## Content Structure
 
@@ -138,43 +130,6 @@ The smart contact form adapts fields based on the selected category:
 | Speaking/Interview | Event, Date, Topic |
 | General | Topic |
 | Website Feedback | Page, Issue |
-
-Features:
-- Honeypot anti-spam field
-- Server-side rate limiting (5 requests/minute per IP)
-- Email via Resend (or server-side logging if not configured)
-
-## Project Structure
-
-```
-├── app/
-│   ├── layout.tsx         # Root layout with providers
-│   ├── page.tsx           # Main page (imports JSON content statically)
-│   ├── globals.css        # Global styles + theme CSS
-│   ├── providers.tsx      # Theme provider wrapper
-│   └── api/
-│       ├── chat/route.ts  # Chat API endpoint
-│       └── contact/route.ts # Contact form API
-├── components/
-│   ├── layout/            # Navbar, Footer
-│   ├── sections/          # Page sections (Hero, About, Projects, Freelance, Timeline, Chat, Contact)
-│   └── ui/                # Reusable UI components
-├── content/               # Site content (all JSON)
-├── lib/
-│   ├── types.ts           # TypeScript interfaces
-│   ├── content.ts         # Content loading utilities
-│   ├── retrieval.ts       # RAG retrieval system
-│   ├── email.ts           # Email sending via Resend
-│   └── rate-limit.ts      # In-memory rate limiting
-└── public/                # Static assets
-```
-
-## Building for Production
-
-```bash
-npm run build
-npm start
-```
 
 ## Deployment
 
